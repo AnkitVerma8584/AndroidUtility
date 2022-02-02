@@ -40,9 +40,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
-    // Lifecycle + ViewModel & LiveData
-   /* implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0"*/
+
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
 
     implementation "commons-io:commons-io:2.7"
@@ -55,9 +53,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.Ankit8584'
+                groupId = 'com.github.AnkitVerma8584'
                 artifactId = 'android-utility-library'
-                version = '1.0'
+                version = '1.0.1'
             }
         }
     }
